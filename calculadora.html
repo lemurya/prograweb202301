@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="calculadora.js">
+        </script>
+    </head>
+    <body>
+        <h2>Calculadora</h2>
+        <input type="text" id="scr" readonly>
+        
+        <table>
+            <tr>
+                <td><button onclick="escribir1()" >1</button></td>
+                <td><button onclick="escribir2()" >2</button></td>
+                <td><button onclick="escribir3()" >3</button></td>
+                <td><button onclick="sumar()" id="suma">+</button></td>
+                <td><button onclick="blk()" id = "mem">mem</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="escribir4()" >4</button></td>
+                <td><button onclick="escribir5()" >5</button></td>
+                <td><button onclick="escribir6()" >6</button></td>
+                <td><button onclick="resta()" id="resta">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="escribir7()" >7</button></td>
+                <td><button onclick="escribir8()" >8</button></td>
+                <td><button onclick="escribir9()" >9</button></td>
+                <td><button onclick="multiplicar()" id="multiplicar">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="escribir0()" id="0">0</button></td>
+                <td><button onclick="cero()" id="cero">C</button></td>
+                <td><button onclick="igual()" id="igual">=</button></td>
+                <td><button onclick="dividir()" id="dividir">/</button></td>
+            </tr>
+        </table>
+        <h3>Instrucciones</h3>
+        <p>
+            Ingresar el primer numero para la operacion, Guardarlo en memoria con MEM
+            Ingresar segundo numero de la operacion, luego apretar el boton de la operacion
+            que desea realizar, finalmente presionar igual.
+            Nota: Para eliminar memoria presione C y luego igual. el cero a la izquierda no afecta la operacion
+        </p>
+    </body>
+</html>
