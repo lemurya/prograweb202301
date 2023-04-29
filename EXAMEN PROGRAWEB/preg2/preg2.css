@@ -1,0 +1,78 @@
+.barra-gris {
+    background-color:#D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+ 
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .menu li {
+    margin-right: 20px;
+  }
+ 
+  .iniciar-sesion {
+    font-size: 14px;
+  }
+ 
+  .iniciar-sesion a {
+    display: inline-block;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+ 
+  /* Estilos para las imágenes */
+  .contenedor-imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+ 
+  .imagen-izquierda img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  .imagen-derecha img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+ 
+  /* Estilos para la barra gris inferior */
+  .barra-gris-inferior {
+    background-color: #636363;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+ 
+  .menu-inferior {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .menu-inferior li {
+    margin-right: 20px;
+  }
+ 
+  .logo-xbox img {
+    max-height: 30px;
+    width: auto;
+  }
