@@ -1,0 +1,9 @@
+button {
+	text-align: center;
+	width: 100px;
+}
+#avatar {
+	position: absolute;
+	width: 50px;
+	height: 110px;
+}
