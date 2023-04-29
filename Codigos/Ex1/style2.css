@@ -1,0 +1,104 @@
+
+header{
+    background-color: skyblue;
+    padding: 10px;
+}
+.a1{
+    float: right;
+    text-align: right;
+}
+
+
+.costado{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    
+}
+.costado aside{
+    flex: 30px;
+    background-color: skyblue;
+    padding: 20px 20px;
+}
+
+.costado aside h5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    
+    background-color:azure;
+    padding: 20px;
+}
+
+.contenido h2{
+    padding: auto;
+}
+.imagen1{
+    float: none;
+    display: flex;
+    flex: auto;
+    background-color: white;
+}
+
+
+.imagen2{
+    float: none;
+
+    padding: 50px 50px;
+    display: flex;
+    flex: auto;
+    background-color: white;
+}
+
+.imagen3{
+    float: none;
+
+    display: flex;
+    flex: auto;
+    background-color: white;
+}
+
+.imagen4{
+    float: none;
+
+    display: flex;
+    flex: auto;
+    background-color: white;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.img4{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+}
+
+footer{
+    background-color: grey  ;
+    display: flex;
+}
+
+.der{
+    float:right;
+}
+
+
+
